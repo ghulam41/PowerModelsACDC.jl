@@ -3,14 +3,14 @@
 ## Installation
 We rely on [Documenter.jl](https://github.com/JuliaDocs/Documenter.jl). To install it, run the following command in a julia session:
 
-```
+```julia
 Pkg.add("Documenter")
 ```
 
 ## Building the Docs
 To preview the html output of the documents, run the following command:
 
-```
+```julia
 julia --color=yes make.jl
 ```
 
